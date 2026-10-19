@@ -1,0 +1,31 @@
+@import './base.css';
+@layer base {
+  :root {
+    --bg: #f6f7fb;
+    --surface: #fff;
+    --ink: #232a3d;
+    --muted: #7b8398;
+    --accent: #315be8;
+    --on-accent: #fff;
+    --line: #e3e7f0;
+    --input: #fafbff;
+    --hover: #f0f3fb;
+    --canvas: #f5f7fc;
+    --danger: #b34954;
+  }
+  [data-accent='violet'] {
+    --accent: #7a45c5;
+  }
+  [data-accent='green'] {
+    --accent: #278568;
+  }
+  kbd {
+    @apply font-[family-name:ui-monospace,_monospace] text-[length:9px] border border-solid border-[#dce1ed] rounded-[5px] pt-[5px] pr-[7px] pb-[5px] pl-[7px] whitespace-nowrap text-[#7d879c] bg-[#f7f9fd];
+  }
+  .scratchpad-label textarea::placeholder {
+    @apply text-[#929db3];
+  }
+  .command-search input::placeholder {
+    @apply text-[#8994aa];
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "format": "CP/1",
+  "title": "What would you like to do?",
+  "launcher": "mod+k",
+  "accent": "blue",
+  "commands": [
+    {
+      "id": "capture",
+      "title": "Capture a good idea",
+      "category": "Create",
+      "keywords": "new write note idea",
+      "shortcut": "alt+n",
+      "action": "note",
+      "text": "A little idea worth keeping."
+    },
+    {
+      "id": "theme",
+      "title": "Change the scenery",
+      "category": "Workspace",
+      "keywords": "dark light appearance theme",
+      "shortcut": "alt+t",
+      "action": "theme",
+      "text": ""
+    },
+    {
+      "id": "focus",
+      "title": "Find your focus",
+      "category": "Workspace",
+      "keywords": "editor scratchpad writing focus",
+      "shortcut": "alt+f",
+      "action": "focus",
+      "text": ""
+    },
+    {
+      "id": "clear",
+      "title": "Make a fresh start",
+      "category": "Workspace",
+      "keywords": "clear reset erase",
+      "shortcut": "alt+c",
+      "action": "clear",
+      "text": ""
+    },
+    {
+      "id": "reminder",
+      "title": "Leave a kind reminder",
+      "category": "Create",
+      "keywords": "note kindness reminder",
+      "shortcut": "",
+      "action": "note",
+      "text": "Make a little room for something good."
+    }
+  ]
+}
